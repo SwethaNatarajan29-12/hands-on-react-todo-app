@@ -1,0 +1,19 @@
+.mainWrapper {
+  padding: 0px 10px 10px 10px;
+}
+
+.headerTitle {
+  font-size: 50px;
+  text-align: center;
+  background-color: rgb(120, 123, 40);
+  color: whitesmoke;
+  height: 100px;
+  border-radius: 30;
+  padding: 45px;
+}
+
+.todoListWrapper {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(5, 1fr);
+}
